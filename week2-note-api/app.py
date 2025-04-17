@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-
+import os
 app = Flask(__name__)
 
 # ตัวแปรเก็บ note ทั้งหมด (list of dict)
