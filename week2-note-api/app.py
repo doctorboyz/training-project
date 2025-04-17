@@ -47,5 +47,12 @@ def delete_note(note_id):
     notes = [note for note in notes if note['id'] != note_id]
     return jsonify({"message": f"Note {note_id} deleted"}), 200
 
+@app.route('/notes/<int:note_id>', methods=['GET'])
+def get_single_note(note_id):
+    for note in notes:
+        if note['id'] == note_id:
+            return jsonify(note)
+    return jsonify({"error": "Note not found"}), 404
+
 if __name__ == '__main__':
     app.run(debug=True)
