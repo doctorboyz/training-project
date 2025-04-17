@@ -21,3 +21,12 @@ Built as part of the **AI-Powered Developer Roadmap**.
 ```bash
 git clone https://github.com/YOUR_USERNAME/ai-powered-dev-roadmap.git
 cd week2-note-api
+
+📌 API Endpoints Summary
+
+Method	Endpoint	Description
+GET	/notes	Get all notes
+GET	/notes/<id>	Get note by ID
+POST	/notes	Create new note
+PUT	/notes/<id>	Update note by ID
+DELETE	/notes/<id>	Delete note by ID
