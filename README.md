@@ -1,12 +1,24 @@
-# AI-Powered Developer 3-Month Roadmap
+# 🛠️ Training Project – Note API App
 
-This repository documents my learning journey in building full-stack AI-driven applications. Each week includes a self-contained mini-project.
+A full-stack note management app powered by:
+- 🧠 Flask REST API
+- 💻 HTML + JS frontend
+- ☁️ Render for deployment
 
-## 📁 Projects
+Built as part of an AI-Powered Developer learning journey.
 
-- [Week 1 – Python Tools](./week1-python-tools)
-- [Week 2 – Note API with Flask](./week2-note-api)
-- [Week 3 – CSV Dashboard with Streamlit](./week3-dashboard-csv)
+---
 
-...
+## 📁 Project Structure
 
+| Folder | Description |
+|--------|-------------|
+| `backend/`  | Flask REST API with CRUD for notes |
+| `frontend/` | HTML+JS UI to create, view, and delete notes |
+| `render.yaml` | Optional deploy config for Render.com |
+
+---
+
+## 🚀 Live Demo
+
+- 🔗 **Backend API**: [https://training-project-3z2a.onrender.com](https://training-project-3z2a.onrender.com)
