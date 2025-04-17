@@ -1,6 +1,9 @@
 from flask import Flask, request, jsonify
 import os
+from flask_cors import CORS  # ✅ Add this line
+
 app = Flask(__name__)
+CORS(app)  # ✅ Enable CORS for all routes
 
 # ตัวแปรเก็บ note ทั้งหมด (list of dict)
 notes = [
