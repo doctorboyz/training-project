@@ -7,6 +7,10 @@ notes = [
     {"id": 1, "title": "First Note", "content": "Hello, this is my first note!"}
 ]
 
+@app.route('/')
+def home():
+    return "Welcome to the Note API! Use /notes to get started."
+
 # GET - เรียกดู note ทั้งหมด
 @app.route('/notes', methods=['GET'])
 def get_notes():
